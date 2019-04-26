@@ -5,7 +5,6 @@ namespace WordCounter.Models
 {
   public class RepeatCounter
   {
-
-
+    //properties, methods, etc. will go here.
   }
 }

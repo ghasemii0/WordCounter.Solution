@@ -10,12 +10,14 @@ _This program checks to se if a given word exist in given sentece_
 
 ## Setup/Installation Requirements
 
-* _Clone from GitHub https://github.com/ghasemii0/WordCounter.Solution_
-* _run the command on terminal to run the program_
+* Clone from GitHub https://github.com/ghasemii0/WordCounter.Solution_
+* run the command on terminal to run the program
 
 
 ## Steps:
--Checking to see if our repeat counter constructor creates an instance of repeat counter class.
+-Check to see if our repeat counter constructor creates an instance of repeat counter class.
+-Create a method to check if input is anything other than text.
+-Create a method to see if the given word exist in given sentence.
 
 ## spec
 -Takes a word and a sentence from user and checks how many times word appears in sentence.

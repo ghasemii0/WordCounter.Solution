@@ -1,5 +1,6 @@
 using Microsoft.VisualStudio.TestTools.UnitTesting;
 using WordCounter.Models;
+using System;
 using System.Collections.Generic;
 
 namespace WordCounter.Tests
@@ -9,6 +10,9 @@ namespace WordCounter.Tests
   {
     [TestMethod]
     public void RepeatCounterConstructor_CreatesInstanceOfReapeatCounter_True();
-    Assert.AreEqual(typeof(RepeatCounter), newRepeatCounter.GetType());
+    {
+      RepeatCounter newRepeatCounter = new RepeatCounter("test");
+      Assert.AreEqual(typeof(RepeatCounter), newRepeatCounter.GetType());
+    }
   }
 }
