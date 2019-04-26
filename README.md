@@ -20,9 +20,13 @@ _{Leave nothing to chance! You want it to be easy for potential users, employers
 
 ## spec
  Takes a word and a sentence from user and checks how many times word appears in sentence
- | Word Input | Sentence Input| Output|
- | cat        | I have a cat  | 1     |
- | pizza      | I love pizza and I am eating pizza | 2 |
+
+ |Word Input|Sentence Input|Output|
+ |-|-|-|
+
+ |cat|I have a cat|1|
+
+ |pizza|I love pizza and I am eating pizza|2|
 
 _ _
 
