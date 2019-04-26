@@ -2,10 +2,10 @@ namespace WordCountModel
 {
   public class RepeatCounter
   {
-    public string SpliteTheSentence(string sentence)
+    public string[] SpliteTheSentence(string sentence)
     {
-      sentence.Split();
-      return sentence;
+      string[] newSentence = sentence.Split(' ');
+      return newSentence;
     }
   }
 }
