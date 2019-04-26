@@ -36,14 +36,12 @@ namespace WordCountTests
     }
 
     [TestMethod]
-    public void checkForWord_HowManyTimesWordRepeated_True()
+    public void Count_HowManyMatches_3()
     {
       RepeatCounter newRepeatCounter = new RepeatCounter();
-      string word = "am";
-      string sentence = "I am struggling";
-      string sentenceInput = newRepeatCounter.LookForWord(sentence,word);
-      Assert.AreEqual(1,sentenceInput);
+      string word = "cat";
+      string[] sentenceInput = newRepeatCounter.SpliteTheSentence("I am struggling cat cat cat");
+      Assert.AreEqual(3,newRepeatCounter.Count(word));
     }
-
   }
 }
