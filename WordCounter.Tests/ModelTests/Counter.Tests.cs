@@ -35,5 +35,15 @@ namespace WordCountTests
 
     }
 
+    [TestMethod]
+    public void checkForWord_HowManyTimesWordRepeated_True()
+    {
+      RepeatCounter newRepeatCounter = new RepeatCounter();
+      string word = "am";
+      string sentence = "I am struggling";
+      string sentenceInput = newRepeatCounter.LookForWord(sentence,word);
+      Assert.AreEqual(1,sentenceInput);
+    }
+
   }
 }
