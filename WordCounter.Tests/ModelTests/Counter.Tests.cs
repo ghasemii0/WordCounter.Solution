@@ -1,18 +1,58 @@
-using Microsoft.VisualStudio.TestTools.UnitTesting;
-using WordCounter.Models;
-using System;
-using System.Collections.Generic;
+// using Microsoft.VisualStudio.TestTools.UnitTesting;
+// using WordCounterModels;
+// using System;
+// using System.Collections.Generic;
+//
+// namespace WordCounterTests
+// {
+//         [TestClass]
+//     public class WordCounterTests
+//     {
+//         [TestMethod]
+//         public void RepeatCounterConstructor_CreateObjectInstance_RepeatCounter()
+//         {
+//             RepeatCounter newRepeatCounter = new RepeatCounter("test");
+//             Assert.AreEqual(typeof(RepeatCounter), newRepeatCounter.GetType());
+//         }
+//          [TestMethod]
+//         public void GetTargetWord_ReturnsTargetWord_String()
+//         {
+//             string targetWord = "cat";
+//             RepeatCounter newRepeatCounter = new RepeatCounter("cat");
+//
+//             string result = newRepeatCounter.GetTargetWord();
+//             Assert.AreEqual(targetWord, result);
+//         }
+//     }
+// }
 
-namespace WordCounter.Tests
+
+
+
+
+
+
+
+
+
+
+
+
+
+using Microsoft.VisualStudio.TestTools.UnitTesting;
+using WordCountModel;
+
+namespace WordCountTests
 {
   [TestClass]
-  public class RepeatCounterTest
+  public class WordCountTest
   {
     [TestMethod]
-    public void RepeatCounterConstructor_CreatesInstanceOfReapeatCounter_True();
+    public void RepeatCounterConstructor_CreateObjectInstance_RepeatCounter()
     {
-      RepeatCounter newRepeatCounter = new RepeatCounter("test");
-      Assert.AreEqual(typeof(RepeatCounter), newRepeatCounter.GetType());
+        RepeatCounter newRepeatCounter = new RepeatCounter("test");
+        Assert.AreEqual(typeof(RepeatCounter), newRepeatCounter.GetType());
+
     }
   }
 }
