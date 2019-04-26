@@ -1,3 +1,4 @@
+
 namespace WordCountModel
 {
   public class RepeatCounter
