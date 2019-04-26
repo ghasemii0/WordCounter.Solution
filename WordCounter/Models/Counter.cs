@@ -21,5 +21,5 @@ namespace WordCountModel
       }
       return count;
     }
-    }
   }
+}
