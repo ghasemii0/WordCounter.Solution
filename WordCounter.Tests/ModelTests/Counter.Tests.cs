@@ -43,5 +43,14 @@ namespace WordCountTests
       string[] sentenceInput = newRepeatCounter.SpliteTheSentence("I am struggling cat cat cat");
       Assert.AreEqual(3,newRepeatCounter.Count(word));
     }
+
+    [TestMethod]
+    public void Count_HowManyMatches_2()
+    {
+      RepeatCounter newRepeatCounter = new RepeatCounter();
+      string word = "pizza";
+      string[] sentenceInput = newRepeatCounter.SpliteTheSentence("I love pizza and I am eating pizza");
+      Assert.AreEqual(2,newRepeatCounter.Count(word));
+    }
   }
 }
