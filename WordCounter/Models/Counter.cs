@@ -1,10 +1,11 @@
-using System;
-using System.Collections.Generic;
-
-namespace WordCounter.Models
+namespace WordCountModel
 {
   public class RepeatCounter
   {
-    //properties, methods, etc. will go here.
+    public string SpliteTheSentence(string sentence)
+    {
+      sentence.Split();
+      return sentence;
+    }
   }
 }
