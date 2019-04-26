@@ -1,45 +1,44 @@
-# _{Application Name}_
+# _Word Counter_
 
-#### _{Brief description of application}, {Date of current version}_
+#### _This program checks to se if a given word exist in given sentece_
 
-#### By _**{List of contributors}**_
+#### By _**Mustafa Ghasemi**_
 
 ## Description
 
-_{This is a detailed description of your application. Its purpose and usage.  Give as much detail as needed to explain what the application does, and any other information you want users or other developers to have. }_
+_This program checks to se if a given word exist in given sentece_
 
 ## Setup/Installation Requirements
 
-* _This is a great place_
-* _to list setup instructions_
-* _in a simple_
-* _easy-to-understand_
-* _format_
+* _Clone from GitHub https://github.com/ghasemii0/WordCounter.Solution_
+* _run the command on terminal to run the program_
 
-_{Leave nothing to chance! You want it to be easy for potential users, employers and collaborators to run your app. Do I need to run a server? How should I set up my databases? Is there other code this app depends on?}_
+
+## Steps:
+-Checking to see if our repeat counter constructor creates an instance of repeat counter class.
 
 ## spec
- Takes a word and a sentence from user and checks how many times word appears in sentence
+-Takes a word and a sentence from user and checks how many times word appears in sentence.
 
  |Word Input|Sentence Input|Output|
  |-|-|-|
-
- |cat|I have a cat|1|
-
- |pizza|I love pizza and I am eating pizza|2|
+ |cat|I have a cat.|1|
+ |-|-|-|
+ |pizza|I love pizza and I am eating pizza.|2|
+ |car| I ride bus everyday. | 0 |
 
 _ _
 
 ## Support and contact details
 
-_{Let people know what to do if they run into any issues or have questions, ideas or concerns.  Encourage them to contact you or make a contribution to the code.}_
+_If you have any questions or contributions, reach out to Mustafa Ghasemi at mostafa_ghasemi63@yahoo.com
+
+_
 
 ## Technologies Used
 
-_{Tell me about the languages and tools you used to create this app. Assume that I know you probably used HTML and CSS. If you did something really cool using only HTML, point that out.}_
+C#
 
 ### License
 
-*{Determine the license under which this application can be used.  See below for more details on licensing.}*
-
-Copyright (c) 2016 **_{List of contributors or company name}_**
+*Copyright (c) 2019 Mustafa Ghasemi, Epicodus Student*
