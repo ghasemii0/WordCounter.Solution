@@ -1,24 +1,32 @@
+using System;
 
 namespace WordCountModel
 {
   public class RepeatCounter
   {
-    private string _Sentence;
-    public string[] SpliteTheSentence(string sentence)
+    private string _sentence;
+    private string _word;
+    private string[] _splitSentence;
+
+    public RepeatCounter(string word, string sentence)
     {
-      _Sentence = sentence;
-      string[] newSentence = _Sentence.Split(' ');
-      return newSentence;
+      _word = word;
+      _sentence = sentence;
+      _splitSentence = sentence.Split(" ");
     }
 
-    public int Count(string word)
+    public string[] GetSplitSentence()
     {
-      string[] newSentence = SpliteTheSentence(_Sentence);
+      return _splitSentence;
+    }
+
+    public int Count()
+    {
       int count = 0;
-      for (int i = 0; i < newSentence.Length; i++)
+      for (int i = 0; i < _splitSentence.Length; i++)
       {
-        if(newSentence[i] == word)
-        count++;
+        if(_splitSentence[i] == _word)
+        count ++;
       }
       return count;
     }
